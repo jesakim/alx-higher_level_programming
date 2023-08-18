@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 12-roman_to_int.py
-# Brennan D Baraban <375@holbertonschool.com>
 
 
 def roman_to_int(roman_string):
@@ -30,4 +29,4 @@ def roman_to_int(roman_string):
 
         else:
             num += roman_dict[roman_string[i]]
-    return (num)
+    return num
